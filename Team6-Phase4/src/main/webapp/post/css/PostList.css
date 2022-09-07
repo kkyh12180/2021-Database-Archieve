@@ -1,0 +1,98 @@
+@charset "UTF-8";
+
+@font-face{
+	src: url("fonts/GmarketSansTTFMedium.ttf");
+    font-family: "Gmarket";
+ }
+ 
+.menu {
+   list-style-type: none;
+   width: 100px;
+   padding: 0px;
+   margin: 0px;
+   position: fixed;
+   background-color: #E8F3FF;
+   border-radius: 10px 10px 10px 10px/ 10px 10px 10px 10px;
+}
+
+li a {
+   padding: 10px;
+   display: block;
+   height: 56px;
+   text-align: center;
+   line-height: 55px;
+   text-decoration-line: none;
+   font-family: "yaplay";
+   font-size: 40px;
+}
+
+.contents_wrapper {
+   margin: 0px;
+   padding: 0px;
+   height: 85%;
+   border-radius: 0px 0px 10px 10px/ 0px 0px 10px 10px;
+   display: inline;
+}
+
+.home {
+   background-color: #303F89;
+   border-radius: 10px 10px 0px 0px/ 10px 10px 0px 0px;
+   color: white;
+}
+
+.item {
+   color: black;
+}
+
+.main_title {
+	font-family: "yaplay";
+	font-size: 1.5rem;
+	color: white;
+	background-color: #303F89;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px; 
+}
+
+.table_button {
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+  
+	margin: 0;
+	padding: 0.1rem 0.2rem;
+
+	font-family: "yaplay";
+	font-size: 17px;
+	font-weight: 400;
+	text-align: center;
+	text-decoration: none;
+
+ 	display: inline-block;
+	width: auto;
+
+	background-color: white;
+	border: solid;
+	border-color: #9BC4F0;
+	border-radius: 5px;
+	border-width: 5px;
+	
+	box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  	cursor: pointer;
+}
+
+.table_button:hover {
+	background: #9BC4F0;
+}
+
+.table_button:active {
+	background: #E8F3FF;
+}
+
+h2 {
+	color: #7698BD;
+	font-family: "yaplay";
+}
+
+h3 {
+	font-family: "Gmarket";
+}

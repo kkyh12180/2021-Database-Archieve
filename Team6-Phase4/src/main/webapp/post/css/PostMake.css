@@ -1,0 +1,47 @@
+@charset "UTF-8";
+@font-face{
+	src: url("fonts/NanumGothic.ttf");
+    font-family: "NanumGothic"; 
+ }
+@font-face{
+	src: url("fonts/야놀자 야체 Bold.ttf");
+    font-family: "yaplay";
+ }
+@font-face{
+	src: url("fonts/GmarketSansTTFMedium.ttf");
+    font-family: "Gmarket";
+ }
+ 
+body {
+	font-family: "NanumGothic";
+}
+
+.outer {
+  text-align: center;
+}
+
+.inner {
+  display: inline-block;
+}
+
+#savetitlename {
+	font-size: 2rem;
+	padding: 5px;
+	margin: 5px;
+	font-family: "yaplay";
+	color: #303F89;
+}
+
+#savetitle {
+	margin: 5px;
+}
+
+#text {
+	margin: 9px;
+}
+
+.textbox {
+	background-color: #E8F3FF;
+	border: 3px solid;
+	border-color: #7698BD;
+}

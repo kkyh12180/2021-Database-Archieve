@@ -1,0 +1,58 @@
+@charset "UTF-8";
+@font-face{
+	src: url("fonts/NanumGothic.ttf");
+    font-family: "NanumGothic"; 
+ }
+@font-face{
+	src: url("fonts/야놀자 야체 Bold.ttf");
+    font-family: "yaplay";
+ }
+@font-face{
+	src: url("fonts/GmarketSansTTFMedium.ttf");
+    font-family: "Gmarket";
+ }
+ 
+body {
+	font-family: "Gmarket";
+}
+
+.outer {
+  text-align: center;
+}
+
+.inner {
+  display: inline-block;
+}
+
+.maintitle {
+	font-family: "yaplay";
+	font-size: 2.2rem;
+	margin-top: 20px;
+	margin-left: 200px;
+	margin-right: 200px;
+	margin-bottom: 30px;
+	color: #0B5BF7;
+	background-color: #E8F3FF; 
+	border-radius: 10px;
+	padding: 2px;
+	border: 3px solid #0B5BF7;
+}
+
+span {
+	font-family: "Gmarket";
+	font-size: 1.5rem;	
+}
+
+.input_box {
+	border: 1px solid;
+	border-radius: 5px;
+	padding: 5px;
+	font-family: "yaplay";
+	font-size: 1.5rem;
+}
+
+#text {
+	font-size: 1.1rem;
+	font-family: "Gmarket";
+}
+

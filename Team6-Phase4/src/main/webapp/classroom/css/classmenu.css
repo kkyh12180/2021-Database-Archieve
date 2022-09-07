@@ -1,0 +1,87 @@
+@charset "UTF-8";
+
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.inner {
+	margin-left: 120px;
+}
+
+.top_bar {
+	padding: 0px;
+	margin: 0px;
+	width: 100%;
+	height: 80px;
+	background-color: #E8F3FF;
+}
+
+.logo_mypage_wrapper {
+	width: 100%;
+	height: 100%;		
+}
+
+.logo_image {
+	width: 500px;
+	height: 100%;
+	font-size: 0px;
+	background-image:url('image/main_logo.png');
+	background-size: contain;
+	float: left;
+}
+
+.mypage_link {
+	width: 220px;
+	height: 100%;
+	font-size: 24px;
+	font-weight: bold;
+	float: right;
+	text-align: center;
+	line-height: 70px;
+}
+
+@font-face {
+      src : url("fonts/야놀자 야체 Bold.ttf");
+      font-family: "yaplay"
+}
+
+.menu {
+	list-style-type: none;
+	width: 100px;
+	padding: 0px;
+	margin: 0px;
+	position: fixed;
+	background-color: #E8F3FF;
+	border-radius: 10px 10px 10px 10px/ 10px 10px 10px 10px;
+}
+
+li a {
+	padding: 10px;
+	display: block;
+	height: 56px;
+	text-align: center;
+	line-height: 55px;
+	text-decoration-line: none;
+	font-family: "yaplay";
+	font-size: 40px;
+}
+
+.contents_wrapper {
+	margin: 0px;
+	padding: 0px;
+	height: 85%;
+	border-radius: 0px 0px 10px 10px/ 0px 0px 10px 10px;
+}
+
+.home {
+	background-color: #303F89;
+	border-radius: 10px 10px 0px 0px/ 10px 10px 0px 0px;
+	color: white;
+}
+
+.item {
+	color: black;
+}

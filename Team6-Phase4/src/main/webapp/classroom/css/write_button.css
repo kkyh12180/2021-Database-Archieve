@@ -1,0 +1,11 @@
+@charset "UTF-8";
+
+.button_wrapper{
+	position: relative;
+}
+ 
+.down_button{
+	position: absolute;
+	bottom: 0;
+	right: 0;
+}

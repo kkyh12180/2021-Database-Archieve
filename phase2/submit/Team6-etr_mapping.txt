@@ -1,0 +1,17 @@
+ADMIN : 관리자 테이블이다.
+TEACHER : 선생님의 정보를 저장하는 테이블이다.
+STUDENT : 학생의 정보를 저장하는 테이블이다.
+POST : 선생님이 게시하는 게시물을 나타내는 테이블. 작성자로 선생님의 ID를 참조하고 선생님의 번호또한 참조한다.
+MATCHING : post를 통해 만들어진 매칭으로, 게시물, 선생님에 관한 정보를 참조해 온다.
+ - 기존 ER diagram에서는 studentNumber을 multivalued로 가졌으나 CONTAINING_STUDENT_INFO와 관계가 중복되어서 수정되었음.
+COURSE : matching을 통해 만들어진 강의로, 선생님과 매칭에 관한 정보를 참조해 온다.
+CLASSROOM : course가 가지는 weak entity로, 학생과 선생간의 여러 상호작용을 할 수 있는 테이블이다. 
+COURSE_ASSIGNMENT : classroom의 multivalued attribute로, 과제와 관련된 정보를 담고있다.
+COURSE_MATERIAL : classroom의 multivalued attribute로, 강의 자료와 관련된 정보를 담고있다.
+QA : classroom의 multivalued attribute로, 질문과 답변에 관한 정보를 담고있다.
+ - 기존 ER diagram에서는 multivalued가 아니었으나 수정되었음.
+TEACHER_MANAGEMENT : admin이 teacher을 관리하는 정보를 담고있다.
+POST_MANAGEMENT : admin이 post를 관리하는 정보를 담고있다.
+READING_POST : student가 post를 읽었음을 나타낸다.
+CONTAINING_STUDENT_INFO : matching과 연결된 student들의 정보를 담고있다.
+TAKING_COURSE : student가 course를 수강함을 나타낸다.

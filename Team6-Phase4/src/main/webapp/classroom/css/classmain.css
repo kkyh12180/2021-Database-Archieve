@@ -1,0 +1,67 @@
+@charset "UTF-8";
+
+@font-face {
+      src : url("fonts/GmarketSansTTFMedium.ttf");
+      font-family: "gmarket"
+}
+
+@font-face {
+      src : url("fonts/NanumGothic.ttf");
+      font-family: "NanumGothic"
+}
+
+h2 {
+	font-family: gmarket;
+	color: #303F89;
+}
+
+#title {
+	text-decoration-line: none;
+	color: #303F89;
+}
+
+#link {
+	text-decoration-line: none;
+	color: black;
+	font-family: NanumGothic;
+	font-weight: 400;
+	font-size: 20px;
+}
+
+.syllabus {
+	width: 95%;
+	padding-left: 10px;
+	border: 5px solid;
+	border-radius: 5px 5px 5px 5px/ 5px 5px 5px 5px;
+	border-color: #9BC4F0;
+	font-family: NanumGothic;
+}
+
+.syllabus_content {
+	font-weight: 400;
+	font-size: 20px;
+}
+
+.material {
+	width: 95%;
+	padding-left: 10px;
+	border: 5px solid;
+	border-radius: 5px 5px 5px 5px/ 5px 5px 5px 5px;
+	border-color: #9BC4F0;
+}
+
+.assignment {
+	width: 95%;
+	padding-left: 10px;
+	border: 5px solid;
+	border-radius: 5px 5px 5px 5px/ 5px 5px 5px 5px;
+	border-color: #9BC4F0;
+}
+
+.qa {
+	width: 95%;
+	padding-left: 10px;
+	border: 5px solid;
+	border-radius: 5px 5px 5px 5px/ 5px 5px 5px 5px;
+	border-color: #9BC4F0;
+}

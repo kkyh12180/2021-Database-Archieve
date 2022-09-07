@@ -1,0 +1,48 @@
+@charset "UTF-8";
+
+@font-face {
+      src : url("fonts/GmarketSansTTFMedium.ttf");
+      font-family: "gmarket"
+}
+
+@font-face {
+      src : url("fonts/NanumGothic.ttf");
+      font-family: "NanumGothic"
+}
+
+#name_area {
+    resize: none;
+    font-size: 25px;
+    font-weight: 800;
+    width: 1498px;
+    height: 40px;
+    vertical-align: middle;
+    border-radius: 7px 7px 0px 0px/ 7px 7px 0px 0px;
+    background-color: #303F89;
+    color: white;
+    padding: 5px 0px 0px 7px;
+    line-height: 40px;
+    font-family: gmarket;
+}
+
+#question_section {
+    resize : none;
+    font-weight: 400;
+    width: 1500px;
+    height: 350px;
+    border-radius: 0px 0px 7px 7px/ 0px 0px 7px 7px;
+    padding: 5px 0px 0px 5px;
+    color: black;
+    font-family: NanumGothic;
+}
+
+#answer_section {
+	resize : none;
+    font-weight: 400;
+    width: 1500px;
+    height: 350px;
+    border-radius: 7px 7px 7px 7px/ 7px 7px 7px 7px;
+    padding: 5px 0px 0px 5px;
+	color: black;
+	font-family: NanumGothic;
+}
